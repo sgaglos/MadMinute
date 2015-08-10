@@ -1,0 +1,128 @@
+<style type ="text/css">
+    html{
+        height: 100%;
+        width: 100%;
+    }
+    body {
+        font-family:Verdana, sans-serif;
+        height: 100%;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    #container{
+        height: 100%;
+        width: 100%;
+        position: fixed;
+        background-color: #d9d9d9;
+        display: table;
+    }
+    #timespan{
+        text-align: center;
+        font-weight: bold;
+        font-size: 5em;
+    
+
+    }
+    #startPage{
+        position: relative;
+        top: 15px;
+        
+    }
+    .page{
+        display: table-cell;
+        vertical-align: middle;
+    }
+    .button {
+        display: block;
+        width: 200px;
+        height: 60px;
+        border: 3px solid #000;
+        border-radius: 15px;
+        font-size: 3em;
+        font-weight: 600;
+        line-height: 54px;
+        margin: 0 auto;
+        cursor: pointer;
+        cursor: hand;
+    }
+    .green-button{
+        background-color: green;
+    }
+    #playAgain{
+        font-size: 2em;
+        position: relative;
+        top: 5px;
+    }
+    .submit-button{
+        background-color: gray;
+        position: relative;
+        top:5px;
+    }
+    #problemsPage, #endPage{
+        display: none;
+        margin: 0 auto;
+    }
+    .number{
+        margin: 0 auto;
+        height: 50px;
+        width: 25px;
+        text-align: center;
+        position: relative;
+        left: 10px;
+        border:none;
+    }
+    .first-number{
+        top:20px;
+        font-size: 3em;
+    }
+    .second-number{
+        top: -30px;
+        font-size: 3em;
+
+    }
+    .answer-number{
+        top:-25px;
+        left: 48.7%;
+        width: 50px;
+        font-size: 3em;
+        
+    }
+    .submit-button{
+        font-size: 3em;  
+    }
+
+    #plus {
+        margin: 0 auto;
+        height: 50px;
+        width: 25px;
+        font-size: 2em;
+        text-align: center;
+        position: relative;
+        left: -20px;
+        top: 30px;
+        border:none;
+    }
+    hr{
+        width:51px;
+        position: relative;
+        top: -30px;
+        margin: 0 auto;
+        height: 3px;
+        background-color: black;
+
+    }
+    #finalScore{
+        position: relative;
+        text-align: center;
+        margin: 0 auto;
+        font-size: 2em;
+
+    }
+    #currentScore{
+        text-align: center;
+        font-size: 2em;
+    }
+    
+
+ </style>
