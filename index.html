@@ -18,19 +18,13 @@
 	</div>
 
 	<div id="problemsPage" class="page">
-            <!--
-            Numbers container
-            top number- fixed top right
-            bottom number fixed bottom right
-            border b ottom
-            + sign with padding on left
-        -->
             <div id="timespan">60</div>
-            <p class="number first-number" id="firstNumberDiv"></p>
-    		<h2 id="plus">+</h2>
-    		<p class="number second-number" id="secondNumberDiv"></p>
-    		<hr>
-    		<input type="text" class="number answer-number" id="answerDiv" onblur="setFocus()"  /> 
+            <div id="digitsContainer">
+               <p class="number first-number" id="firstNumberDiv"></p>
+    	       <h2 id="plus">+</h2>
+    		   <p class="number second-number" id="secondNumberDiv"></p>
+    		</div> 
+    		<input type="number" class="number answer-number" id="answerDiv" onblur="setFocus()"  /> 
     		<button class="button submit-button" id="answerButton" onclick="submitAnswer()">Submit</button>
     		<p id="currentScore">Current Score: </p>
 	</div>

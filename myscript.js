@@ -6,7 +6,7 @@ $(document).keypress(function(e){
     }
 });
 
-var t, count = 5;
+var t, count = 60;
 var x, y;
 var score = 0;
 
@@ -36,7 +36,7 @@ function countdown() {
 }
 
 function cdreset() {
-    count = 5;
+    count = 60;
     score = 0;
     cddisplay();
 }
